@@ -116,11 +116,13 @@ Odpalenie
 
 Badge
 ========
-	-TraviCI
+
 .. image:: https://travis-ci.org/travis-ci/travis-web.svg?branch=master
     :target: https://travis-ci.org/travis-ci/travis-web
 
-	-StatusCake
+Badge
+=======
+
 .. image:: https://app.statuscake.com/button/index.php?Track=B8VQbl7Xgs&Days=1&Design=2
     :target: https://www.statuscake.com
 
