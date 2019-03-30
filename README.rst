@@ -114,13 +114,13 @@ Odpalenie
    komenda make deps
 
 
-Badge
+Badge TracisCI
 ========
 
 .. image:: https://travis-ci.org/travis-ci/travis-web.svg?branch=master
     :target: https://travis-ci.org/travis-ci/travis-web
 
-Badge
+Badge StatusCake
 =======
 
 .. image:: https://app.statuscake.com/button/index.php?Track=B8VQbl7Xgs&Days=1&Design=2
