@@ -124,6 +124,6 @@ Badge StatusCake
 =======
 
 .. image:: https://app.statuscake.com/button/index.php?Track=B8VQbl7Xgs&Days=1&Design=2
-    :target: https://www.statuscake.com
+    :target: https://app.statuscake.com/UptimeStatus.php?tid=3976146
 
 
