@@ -105,12 +105,23 @@ Materiały
 Odpalenie
 =========
 
--   source /usr/local/bin/virtualenvwrapper.sh
+   source /usr/local/bin/virtualenvwrapper.sh
 
--   mkvirtualenv wsb-simple-flask-app
+   mkvirtualenv wsb-simple-flask-app
 
--   przejscie do katalogu se_hello_printer_app
+   przejscie do katalogu se_hello_printer_app
 
--   komenda make deps
+   komenda make deps
+
+
+Badge
+========
+	TraviCI
+.. image:: https://travis-ci.org/travis-ci/travis-web.svg?branch=master
+    :target: https://travis-ci.org/travis-ci/travis-web
+
+	StatusCake
+.. image:: https://app.statuscake.com/button/index.php?Track=B8VQbl7Xgs&Days=1&Design=2
+    :target: https://www.statuscake.com
 
 
