@@ -2,4 +2,4 @@
 .cache
 .coverage
 coverage.xml
-test_result.xml
+test_results.xml
