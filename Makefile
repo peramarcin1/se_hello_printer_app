@@ -10,6 +10,12 @@ lint:
 test:
 	PYTHONPATH=. py.test  --verbose -s
 
+test_cov:
+	PYTHONPATH=. py.test --verbose -s --cov=.
+
+test_xunit:
+	PYTHONPATH=. py.test -s --cov=. --cov-report xml --junit-xml=test_results.xml
+
 run:
 	PYTHONPATH=. FLASK_APP=hello_world flask run
 
@@ -21,11 +27,7 @@ docker_run: docker_build
 		--name hello-world-printer-dev \
 		-p 5000:5000 \
 		-d hello-world-printer
-test_cov:
-	PYTHONPATH=. py.test --verbose -s --cov=.
 
-test_xunit:
-	PYTHONPATH=. py.test -s --cov=. --cov-report xml --junit-xml=test_results.xml
 
 
 
